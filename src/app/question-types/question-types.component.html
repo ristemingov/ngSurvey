@@ -1,0 +1,10 @@
+<mat-accordion>
+    <mat-expansion-panel *ngFor="let item of listQuestionTypes">
+        <mat-expansion-panel-header class="title"> 
+        {{item.title}}
+        </mat-expansion-panel-header>
+        <div class="description">
+            {{item.description}}
+        </div>
+    </mat-expansion-panel>
+</mat-accordion>

@@ -23,7 +23,8 @@
               "src/favicon.ico",
               "src/assets"
             ],
-            "styles": [
+            "styles": [     
+              "./node_modules/@material/layout-grid/dist/mdc.layout-grid.css",
               "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.css"
             ],
