@@ -1,7 +1,9 @@
 .title {
     font-weight: bold;
+    font-size: 20px;
 }
 
 .description {
     color: #222222;
+    font-size: 18px;
 }
