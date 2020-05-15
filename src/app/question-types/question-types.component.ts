@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import {MatExpansionModule} from '@angular/material/expansion';
 import { QuestionTypesService } from './question-types.service';
 
 @Component({
@@ -14,6 +13,10 @@ export class QuestionTypesComponent implements OnInit {
 
   ngOnInit(): void {
     this.listQuestionTypes = this.questionTypesService.questionTypes;
+  }
+
+  onCreate(index: number) {
+    console.log(this.questionTypesService.questionTypes[index]);
   }
 
 }

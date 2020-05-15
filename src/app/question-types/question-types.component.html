@@ -1,10 +1,17 @@
 <mat-accordion>
-    <mat-expansion-panel *ngFor="let item of listQuestionTypes">
-        <mat-expansion-panel-header class="title"> 
+    <mat-expansion-panel *ngFor="let item of listQuestionTypes; let idx = index">
+        <mat-expansion-panel-header class="title">
         {{item.title}}
         </mat-expansion-panel-header>
         <div class="description">
             {{item.description}}
+        </div>
+        <div class="mdc-layout-grid">
+          <div class="mdc-layout-grid__inner">
+          <div class="mdc-layout-grid__cell--span-1 button-style">
+            <button mat-stroked-button color="primary" (click)="onCreate(idx)">Create</button>
+          </div>
+        </div>
         </div>
     </mat-expansion-panel>
 </mat-accordion>
