@@ -1,0 +1,15 @@
+
+
+.header {
+  width: 100%;
+  color: #ffffff;
+  height: 3rem;
+
+}
+
+.header-title {
+  text-align: center;
+  font-size: 1.8rem;
+  padding: 5px;
+}
+
