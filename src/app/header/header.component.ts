@@ -11,7 +11,7 @@ export class HeaderComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    this.headerTitle = 'Create your survey now';
+    this.headerTitle = 'ngSurvey';
   }
 
 }

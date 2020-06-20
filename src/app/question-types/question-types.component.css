@@ -12,3 +12,19 @@
 .button-style {
   grid-column-start: -3;
 }
+
+/* .extended-fab-button {
+  width: unset;
+  padding: 0 26px;
+  border-radius: 29px;
+
+  .mat-icon {
+    margin-right: 10px;
+  }
+
+  .extended-fab-button__text {
+    font-weight: 300;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+} */
